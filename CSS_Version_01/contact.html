@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "author" content="Victoria Nikolaeva">
+        <meta name = "description" content="Website thats about Me & how to Contact ME">
+        <link rel="stylesheet" type="text/css" href="styleCSS.css" />
+        <title>Viki's Website</title>
+    </head>
+    <body>
+        <header> 
+            <h1><center>:: Viki's Website ::</center></h1>
+            <hr>
+            <nav>
+            <center>
+                <a href="main.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="aboutMe.html">About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="contact.html"><strong>Contact Me</strong></a>
+            </center>
+            </nav>
+            <hr>
+        </header>
+        
+        <main>
+            <center>
+                <h4>You can follow me on these platforms:</h4>
+                <div>
+                    <a class="socialMedia" href="https://www.instagram.com/vikiniki123/"><img src="instagramLogo.png" alt="Instagram Logo" style="width:50px;height:50px;"></a>
+                    <a class="socialMedia" href="https://www.youtube.com/channel/UCRc7jRt6HDlDvpQ2CAAn5AQ"><img src="youtubeLogo.png" alt="Youtube Logo" style="width:50px;height:50px;"></a>
+                    <a class="socialMedia" href="https://www.facebook.com/profile.php?id=100019597779608"><img src="facebookLogo.png" alt="FaceBook Logo" style="width:50px;height:50px;"></a>
+                    <a class="socialMedia" href="https://www.pinterest.com/vnikolaeva04/"><img src="pinterestLogo.png" alt="Pinterest Logo" style="width:50px;height:50px;"></a>
+                </div>
+            </center>
+
+            <div id="messager">
+                <center>
+                    <table width="500">
+                        <tr>
+                            <td>
+                                <form   action="https://httpbin.org/get" 
+                                        method="get">
+                                
+                                        <fieldset>
+                                        <legend><h4> Send Me a Message</h4></legend>
+                                    
+                                        <label for="firstName">First Name:</label>
+                                        <input  type="text" 
+                                                name="firstName"   
+                                                id="firstName" 
+                                                autocomplete="on" 
+                                                required />
+                                            
+                                        <br>
+                                        <br>
+                                        
+                                        <label for="lastName">Last Name:</label>
+                                        <input  type="text"
+                                                name="lastName"
+                                                id="lastName"
+                                                autocomplete="on" 
+                                                required/>
+                                        <br>
+                                        <br>
+                                        
+                                        <label for="emailAddr">&emsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</label>
+                                        <input  type="text" 
+                                                name="emailAddr"
+                                                id="emailAddr"
+                                                autocomplete="on"
+                                                required/>
+                                        <br><br>
+
+                                        <legend>Purpose of Message:</legend>
+                                        <p>
+                                            <input  type="radio"
+                                                    name="message_purpose" 
+                                                    id="friends"
+                                                    values="friends">
+                                            <label for="friends">Wanna be friends?</label>
+                                        </p>
+                                        <p>
+                                            <input  type="radio"
+                                                    name="message_purpose"
+                                                    id="business" 
+                                                    values="business">
+                                            <label for = "business">Business Proposition</label>
+                                        </p>
+                                                                     
+                                        <label for="message">Message:</label>
+                                        <textarea   name="message" 
+                                                    id="message" 
+                                                    cols="60" 
+                                                    rows="10"
+                                                    placeholder="Type your message here">
+                                        </textarea>
+                                        <hr>
+                                        <button type="submit">Submit</button>
+                                        <button type="reset">Reset</button>
+                                    </fieldset>
+                                    
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+            </div>
+        </main>
+
+        <br><br><br>
+        
+        <footer>
+            <center>
+                <nav>
+                    <a href="main.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="aboutMe.html">About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="contact.html">Contact Me</a>
+                </nav>
+                <p>&copy;Victoria Nikolaeva</p>
+            </center>
+        </footer>
+        
+
+    </body>
+</html> 
