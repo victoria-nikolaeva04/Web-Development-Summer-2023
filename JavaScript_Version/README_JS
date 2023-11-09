@@ -1,0 +1,9 @@
+This version kept the CSS 0.2 basic structure but added functionality to the site.
+To practice my upcoming knowledge & learning of JS, decided to make a fake shop
+
+This fake shop contains four opinion of art, each with their title, image, price, and quanity properties
+and I had to use JS to calculate and update these different properties for things like the overall cart button
+or total price depending on the unit rate of the art and the quanity of said art.
+
+This fake shop also help learn a bit more into other ideas like JSON and Web Storage, however
+the main focus was learning the potential of JS.
